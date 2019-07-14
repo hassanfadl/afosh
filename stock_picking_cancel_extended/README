@@ -1,0 +1,13 @@
+
+
+1) v 12.0.0.2
+
+-> Solve issue of  wrong qty update on purchase order cancel.
+---> unreserve quantity issue 
+
+
+Date: 07/06/2019
+Version:12.0.0.4
+Issue:- done state picking not going to cancel.
+super not call in unlink method 
+
