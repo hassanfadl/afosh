@@ -1,0 +1,4 @@
+[submodule "odoomates/odooapps"]
+	path = odoomates/odooapps
+	url = git@github.com:odoomates/odooapps.git
+	branch = 12.0
