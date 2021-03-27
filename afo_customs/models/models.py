@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class product_extend(models.Model):
+class product_extend(models.Model):
     _name = 'afo_customs.product_extend'
     _description = 'afo_customs.product_extend'
     _inherit = 'product.product'
