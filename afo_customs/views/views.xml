@@ -10,6 +10,7 @@
             <field name="frontnamecard_image" widget="image" />
             <field name="backnamecard_image" widget="image" />
           </page>
+        </xpath>
       </field>
     </record>
 
