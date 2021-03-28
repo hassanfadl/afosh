@@ -5,12 +5,16 @@
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form" />
       <field name="arch" type="xml">
-        <xpath expr="//field[@name='vat']" position="after">
-          <field name="frontnamecard_image" widget="image" />
-          <field name="backnamecard_image" widget="image" />
-        </xpath>
+        <xpath expr="//page[@name='Internal Notes']" position='after'>
+          <page string='Business Card'>
+            <field name="frontnamecard_image" widget="image" />
+            <field name="backnamecard_image" widget="image" />
+          </page>
       </field>
     </record>
+
+
+
 
     <!-- explicit list view definition -->
 <!--
