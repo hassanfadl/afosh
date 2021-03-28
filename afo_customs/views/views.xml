@@ -1,5 +1,17 @@
 <odoo>
   <data>
+    <record model="ir.ui.view" id="afo_customs_contact_view">
+      <field name="name">afo_customs namecard</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="base.view_partner_form" />
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='vat']" position="after">
+          <field name="frontnamecard_image" widget="image" />
+          <field name="backnamecard_image" widget="image" />
+        </xpath>
+      </field>
+    </record>
+
     <!-- explicit list view definition -->
 <!--
     <record model="ir.ui.view" id="afo_customs.list">
