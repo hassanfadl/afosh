@@ -64,17 +64,17 @@ msgstr ""
 #. module: product_dimension
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
-msgid "Height"
+msgid "height"
 msgstr ""
 
 #. module: product_dimension
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
-msgid "Length"
+msgid "length"
 msgstr ""
 
 #. module: product_dimension
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
-msgid "Width"
+msgid "width"
 msgstr ""
