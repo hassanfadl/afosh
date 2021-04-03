@@ -8,7 +8,7 @@ class product_extend(models.Model):
     # _description = 'afo_customs.product_extend'
     _inherit = ['product.product']
 
-    product_moq = fields.Float(string="MOQ", help="Internal Use MOQ"))
+    product_moq = fields.Float(string="MOQ", help="Internal Use MOQ")
 
 class product_template_extend(models.Model):
     _inherit = "product.template"
