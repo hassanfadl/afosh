@@ -14,8 +14,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: product_dimension
-#: model:ir.model.fields,field_description:product_dimension.field_product_product__dimensional_uom_id
-#: model:ir.model.fields,field_description:product_dimension.field_product_template__dimensional_uom_id
+#: model:ir.ui.view,arch_db:product_dimension.field_product_product__dimensional_uom_id
+#: model:ir.ui.view,arch_db:product_dimension.field_product_template__dimensional_uom_id
 msgid "Dimensional UoM"
 msgstr "尺寸单位"
 
@@ -84,7 +84,7 @@ msgid "width"
 msgstr "宽度"
 
 #. module: product_dimension
-#: model:ir.model.fields,field_description:product_dimension.field_product_product__weight_uom_id
-#: model:ir.model.fields,field_description:product_dimension.field_product_template__weight_uom_id
+#: model:ir.ui.view,arch_db:product_dimension.field_product_product__weight_uom_id
+#: model:ir.ui.view,arch_db:product_dimension.field_product_template__weight_uom_id
 msgid "Weight UOM"
 msgstr "重量单位"
