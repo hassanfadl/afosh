@@ -14,7 +14,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: afo_customs
-#: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
+#: model_terms:ir.ui.view,arch_db:afo_customs.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:afo_customs.product_template_only_form_view
 msgid "MOQ"
 msgstr ""
+
