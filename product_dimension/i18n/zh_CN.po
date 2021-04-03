@@ -51,7 +51,13 @@ msgstr "产品模版"
 #: model:ir.model.fields,help:product_dimension.field_product_product__dimensional_uom_id
 #: model:ir.model.fields,help:product_dimension.field_product_template__dimensional_uom_id
 msgid "UoM for length, height, width"
-msgstr "单位长度，高度，宽度"
+msgstr "单位的长度，高度，宽度"
+
+#. module: product_dimension
+#: model:ir.model.fields,help:product_dimension.field_product_product__weight_uom_id
+#: model:ir.model.fields,help:product_dimension.field_product_template__weight_uom_id
+msgid "UoM for Weight"
+msgstr "单位的重量"
 
 #. module: product_dimension
 #: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
