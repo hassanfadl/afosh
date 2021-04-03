@@ -37,7 +37,7 @@ class Product(models.Model):
     # From wk
     dimensional_uom_id = fields.Many2one(
         'uom.uom',
-        'Dimensional UoM',
+        'Dimensional UOM',
         domain=lambda self: [
             ('category_id', '=', self.env.ref('uom.uom_categ_length').id)],
         help="Default Unit of Measure used for dimension."
@@ -45,7 +45,7 @@ class Product(models.Model):
     
     weight_uom_id = fields.Many2one(
         'uom.uom',
-        'Weight UoM',
+        'Weight UOM',
         domain=lambda self: [
             ('category_id', '=', self.env.ref('uom.product_uom_categ_kgm').id)],
         help="Default Unit of Measure used for weight."
@@ -88,7 +88,7 @@ class ProductTemplate(models.Model):
     # to be able to modify the values from product.template.
     dimensional_uom_id = fields.Many2one(
         "uom.uom",
-        "Dimensional UoM",
+        "Dimensional UOM",
         related="product_variant_ids.dimensional_uom_id",
         help="UoM for length, height, width",
         readonly=False,
@@ -96,7 +96,7 @@ class ProductTemplate(models.Model):
 
     weight_uom_id = fields.Many2one(
         "uom.uom",
-        "Weight UoM",
+        "Weight UOM",
         related="product_variant_ids.weight_uom_id",
         help="UoM for Weight",
         readonly=False,

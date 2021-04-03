@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
             <xpath expr="//group[@name='inventory']" position="inside">
                 <group name="dimensions" string="Dimensions" colspan="2">
-                    <field name="dimensional_uom_id" string="Dimension UOM" />
+                    <field name="dimensional_uom_id" string="Dimensional UOM" />
                     <field name="product_length" string="Length" />
                     <field name="product_height" string="Height" />
                     <field name="product_width" string="Width" />
@@ -16,7 +16,7 @@
             </xpath>
             <xpath expr="//group[@name='group_standard_price']" position="after">
                 <group name="dimensions" string="Dimensions" colspan="2">
-                    <field name="dimensional_uom_id" string="Dimension UOM" />
+                    <field name="dimensional_uom_id" string="Dimensional UOM" />
                     <field name="product_length" string="Length" />
                     <field name="product_height" string="Height" />
                     <field name="product_width" string="Width" />
@@ -37,7 +37,7 @@
                     colspan="2"
                     attrs="{'invisible': [('product_variant_count', '&gt;', 1)]}"
                 >
-                    <field name="dimensional_uom_id" string="Dimension UOM" />
+                    <field name="dimensional_uom_id" string="Dimensional UOM" />
                     <field name="product_length" string="Length" />
                     <field name="product_height" string="Height" />
                     <field name="product_width" string="Width" />
@@ -47,7 +47,7 @@
 
             <xpath expr="//group[@name='group_standard_price']" position="after">
                 <group string="Dimensions" name="dimensions" colspan="2" attrs="{'invisible': [('product_variant_count', '&gt;', 1)]}">
-                    <field name="dimensional_uom_id" string="Dimension UOM" />
+                    <field name="dimensional_uom_id" string="Dimensional UOM" />
                     <field name="product_length" string="Length" />
                     <field name="product_height" string="Height" />
                     <field name="product_width" string="Width" />
