@@ -46,17 +46,35 @@ msgstr "单位的重量"
 #. module: product_dimension
 #: model:ir.model.fields,field_description:product_dimension.field_product_product__product_height
 #: model:ir.model.fields,field_description:product_dimension.field_product_template__product_height
-msgid "Height"
+msgid "height"
 msgstr "高度"
 
 #. module: product_dimension
 #: model:ir.model.fields,field_description:product_dimension.field_product_product__product_length
 #: model:ir.model.fields,field_description:product_dimension.field_product_template__product_length
-msgid "Length"
+msgid "length"
 msgstr "长度"
 
 #. module: product_dimension
 #: model:ir.model.fields,field_description:product_dimension.field_product_product__product_width
 #: model:ir.model.fields,field_description:product_dimension.field_product_template__product_width
+msgid "width"
+msgstr "宽度"
+
+#. module: product_dimension
+#: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
+msgid "Height"
+msgstr "高度"
+
+#. module: product_dimension
+#: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
+msgid "Length"
+msgstr "长度"
+
+#. module: product_dimension
+#: model_terms:ir.ui.view,arch_db:product_dimension.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_dimension.product_template_only_form_view
 msgid "Width"
 msgstr "宽度"
