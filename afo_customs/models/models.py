@@ -4,9 +4,9 @@ from odoo import models, fields, api, tools
 
 
 class product_extend(models.Model):
-    _name = 'afo_customs.product_extend'
-    _description = 'afo_customs.product_extend'
-    _inherit = 'product.product'
+    # _name = 'afo_customs.product_extend'
+    # _description = 'afo_customs.product_extend'
+    _inherit = ['product.product']
 
 class contact_extend(models.Model):
     _inherit = ['res.partner']
