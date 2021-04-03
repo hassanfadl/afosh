@@ -4,9 +4,9 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
     "name": "Product Dimension",
-    "version": "13.0.1.0.0",
+    "version": "14.0.1.0.0",
     "category": "Product",
-    "author": "brain-tec AG, ADHOC SA, Camptocamp SA, "
+    "author": "AFO SYSTEM, brain-tec AG, ADHOC SA, Camptocamp SA, "
     "Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "website": "https://github.com/OCA/product-attribute",

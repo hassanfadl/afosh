@@ -26,12 +26,29 @@ class Product(models.Model):
     product_length = fields.Float("length")
     product_height = fields.Float("height")
     product_width = fields.Float("width")
+    # dimensional_uom_id = fields.Many2one(
+    #     "uom.uom",
+    #     "Dimensional UoM",
+    #     domain=lambda self: self._get_dimension_uom_domain(),
+    #     help="UoM for length, height, width",
+    #     default=lambda self: self.env.ref("uom.product_uom_meter"),
+    # )
+
+    # From wk
     dimensional_uom_id = fields.Many2one(
-        "uom.uom",
-        "Dimensional UoM",
-        domain=lambda self: self._get_dimension_uom_domain(),
-        help="UoM for length, height, width",
-        default=lambda self: self.env.ref("uom.product_uom_meter"),
+        'uom.uom',
+        'Dimensional UoM',
+        domain=lambda self: [
+            ('category_id', '=', self.env.ref('uom.uom_categ_length').id)],
+        help="Default Unit of Measure used for dimension."
+    )
+    
+    weight_uom_id = fields.Many2one(
+        'uom.uom',
+        'Weight UoM',
+        domain=lambda self: [
+            ('category_id', '=', self.env.ref('uom.product_uom_categ_kgm').id)],
+        help="Default Unit of Measure used for weight."
     )
 
 
@@ -74,6 +91,14 @@ class ProductTemplate(models.Model):
         "Dimensional UoM",
         related="product_variant_ids.dimensional_uom_id",
         help="UoM for length, height, width",
+        readonly=False,
+    )
+
+    weight_uom_id = fields.Many2one(
+        "uom.uom",
+        "Weight UoM",
+        related="product_variant_ids.weight_uom_id",
+        help="UoM for Weight",
         readonly=False,
     )
 
