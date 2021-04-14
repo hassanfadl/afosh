@@ -1,0 +1,11 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report 
+        id="report_internal_quotation"
+        string="Internal Quotation"
+        model="sale.order"
+        report_type="qweb-html"
+        name=""
+        file=""
+    />
+</odoo> -->

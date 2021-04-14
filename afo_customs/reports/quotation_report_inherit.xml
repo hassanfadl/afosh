@@ -1,0 +1,7 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="quotation_report_inherit" inherit_id="sale.report_saleorder_document" primary="True">
+    <xpath expr="//" position="">
+    </xpath>
+   </template>
+</odoo> -->

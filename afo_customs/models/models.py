@@ -24,7 +24,6 @@ class contact_extend(models.Model):
 
 
 
-
 #     name = fields.Char()
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
